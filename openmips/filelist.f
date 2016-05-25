@@ -1,0 +1,14 @@
++incdir+$UVM_HOME/src
+$UVM_HOME/src/uvm_pkg.sv
+top_tb.sv
+dut/openmips.v
+dut/id_ex.v
+dut/pc_reg.v
+dut/regfile.v
+dut/ex_mem.v
+dut/mem.v
+dut/if_id.v
+dut/id.v
+dut/mem_wb.v
+dut/defines.v
+dut/ex.v

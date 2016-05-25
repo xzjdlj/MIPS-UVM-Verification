@@ -1,0 +1,3 @@
+DPI_STUB_OBJS = ./../simv.daidir/vc_hdrs.o
+./../simv.daidir/vc_hdrs.o: ./../simv.daidir/vc_hdrs.c
+	@$(CC)  -pipe -m32 -DVCS    -I/EDATools/synopsys/vcs-mx_vG-2012.09-SP1/include  -fPIC -c -o $@ $<

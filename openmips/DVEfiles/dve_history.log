@@ -1,0 +1,329 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/liujin/workspace/swlib/nanosim/verilog-netlist/rt2bc.vcd -design V1} {gui_open_db -file /home/liujin/workspace/swlib/nanosim/verilog-netlist/full_rt2bc.vcd -design V1} {gui_open_db -file /home/liujin/workspace/swlib/nanosim/verilog-netlist/mt_bc2rt.vcd -design V1} {gui_open_db -file /home/liujin/workspace/swlib/nanosim/verilog-netlist/full_bc2rt.vcd -design V1} {gui_open_db -file /home/liujin/workspace/swlib/nanosim/verilog-netlist/mode_r.vcd -design V1}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1649
+gui_set_state_value -category Layout -key child_console_size_y -value 162
+gui_set_state_value -category Layout -key child_data_coltype -value 47
+gui_set_state_value -category Layout -key child_data_colvalue -value 107
+gui_set_state_value -category Layout -key child_data_colvariable -value 147
+gui_set_state_value -category Layout -key child_data_size_x -value 298
+gui_set_state_value -category Layout -key child_data_size_y -value 683
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 207
+gui_set_state_value -category Layout -key child_hier_size_y -value 683
+gui_set_state_value -category Layout -key child_list_down -value 755
+gui_set_state_value -category Layout -key child_list_right -value 1764
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1147
+gui_set_state_value -category Layout -key child_source_size_y -value 678
+gui_set_state_value -category Layout -key child_wave_colname -value 276
+gui_set_state_value -category Layout -key child_wave_colvalue -value 276
+gui_set_state_value -category Layout -key child_wave_left -value 557
+gui_set_state_value -category Layout -key child_wave_right -value 1357
+gui_set_state_value -category Layout -key main_pos_x -value 23
+gui_set_state_value -category Layout -key main_pos_y -value 48
+gui_set_state_value -category Layout -key main_size_x -value 1672
+gui_set_state_value -category Layout -key main_size_y -value 992
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_x -value 1924
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 900
+gui_set_state_value -category Layout -key stand_list_top_pos_x -value 509
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 36
+gui_set_state_value -category Layout -key stand_list_top_size_x -value 2428
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 1040
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1924
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 900
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 254
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 451
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 2173
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 1455
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/liujin/workspace/uvm/uvm-1.1d/examples/simple/openmips/wave.vcd -design V1
+gui_list_select -id Hier.1 -current_item_name _vcs_unit__1816722049 -current_item_type Scope  -selected  { _vcs_unit__1816722049   }
+gui_list_expand -id Hier.1   _vcs_unit__1816722049
+gui_list_action -id  Hier.1 _vcs_unit__1816722049
+gui_list_select -id Hier.1 -current_item_name _vcs_unit__1816722049.my_driver -current_item_type Scope  -selected  { _vcs_unit__1816722049.my_driver   }
+gui_list_expand -id Hier.1   _vcs_unit__1816722049.my_driver
+gui_list_action -id  Hier.1 _vcs_unit__1816722049.my_driver
+gui_list_select -id Hier.1 -current_item_name _vcs_unit__1816722049 -current_item_type Scope  -selected  { _vcs_unit__1816722049   }
+gui_list_action -id  Hier.1 _vcs_unit__1816722049
+gui_list_collapse -id  Hier.1   _vcs_unit__1816722049.my_driver
+gui_list_action -id  Hier.1 _vcs_unit__1816722049
+gui_list_expand -id Hier.1   top_tb
+gui_list_action -id  Hier.1 top_tb
+gui_list_select -id Hier.1 -current_item_name top_tb -current_item_type Scope  -selected  { top_tb   }
+gui_list_select -id Data.1 -selected  { top_tb.my_dut.clk   }
+gui_list_select -id Data.1 { top_tb.my_dut.rst  {top_tb.my_dut.rom_data_i[31:0]}  {top_tb.my_dut.rom_addr_o[31:0]}  top_tb.my_dut.rom_ce_o  top_tb.my_dut.wb_wreg_i  {top_tb.my_dut.wb_wd_i[4:0]}  {top_tb.my_dut.wb_wdata_i[31:0]}  top_tb.my_dut.reg1_read  {top_tb.my_dut.reg1_addr[4:0]}  {top_tb.my_dut.reg1_data[31:0]}  top_tb.my_dut.reg2_read  {top_tb.my_dut.reg2_addr[4:0]}  {top_tb.my_dut.reg2_data[31:0]}  {top_tb.my_dut.pc[31:0]}  {top_tb.my_dut.id_pc_i[31:0]}  {top_tb.my_dut.id_inst_i[31:0]}  {top_tb.my_dut.id_aluop_o[7:0]}  {top_tb.my_dut.id_alusel_o[2:0]}  {top_tb.my_dut.id_reg1_o[31:0]}  {top_tb.my_dut.id_reg2_o[31:0]}  top_tb.my_dut.id_wreg_o  {top_tb.my_dut.id_wd_o[4:0]}  {top_tb.my_dut.ex_aluop_i[7:0]}  {top_tb.my_dut.ex_alusel_i[2:0]}  {top_tb.my_dut.ex_reg1_i[31:0]}  {top_tb.my_dut.ex_reg2_i[31:0]}  top_tb.my_dut.ex_wreg_i  {top_tb.my_dut.ex_wd_i[4:0]}  top_tb.my_dut.ex_wreg_o  {top_tb.my_dut.ex_wd_o[4:0]}  {top_tb.my_dut.ex_wdata_o[31:0]}  top_tb.my_dut.mem_wreg_i  {top_tb.my_dut.mem_wd_i[4:0]}  {top_tb.my_dut.mem_wdata_i[31:0]}  top_tb.my_dut.mem_wreg_o  {top_tb.my_dut.mem_wd_o[4:0]}  {top_tb.my_dut.mem_wdata_o[31:0]}   }
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut -current_item_type Scope  -selected  { top_tb.my_dut   }
+gui_list_select -id Hier.1 -current_item_name _vcs_unit__1816722049 -current_item_type Scope  -selected  { _vcs_unit__1816722049   }
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut -current_item_type Scope  -selected  { top_tb.my_dut   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.rom_addr_o[31:0]}   }
+gui_list_select -id Data.1 -selected  { top_tb.my_dut.clk   }
+gui_list_select -id Data.1 -selected  { top_tb.my_dut.clk  top_tb.my_dut.rst   }
+gui_list_select -id Data.1 -selected  { top_tb.my_dut.clk  top_tb.my_dut.rst  {top_tb.my_dut.rom_data_i[31:0]}   }
+gui_list_select -id Data.1 -selected  { top_tb.my_dut.clk  top_tb.my_dut.rst  {top_tb.my_dut.rom_data_i[31:0]}  {top_tb.my_dut.rom_addr_o[31:0]}   }
+gui_list_select -id Data.1 -selected  { top_tb.my_dut.clk  top_tb.my_dut.rst  {top_tb.my_dut.rom_data_i[31:0]}  {top_tb.my_dut.rom_addr_o[31:0]}  top_tb.my_dut.rom_ce_o   }
+gui_list_select -id Data.1 -selected  { top_tb.my_dut.clk  top_tb.my_dut.rst  {top_tb.my_dut.rom_data_i[31:0]}  {top_tb.my_dut.rom_addr_o[31:0]}  top_tb.my_dut.rom_ce_o  top_tb.my_dut.wb_wreg_i  {top_tb.my_dut.wb_wd_i[4:0]}  {top_tb.my_dut.wb_wdata_i[31:0]}   }
+gui_list_select -id Data.1 { top_tb.my_dut.reg1_read  {top_tb.my_dut.reg1_addr[4:0]}  {top_tb.my_dut.reg1_data[31:0]}  top_tb.my_dut.reg2_read  {top_tb.my_dut.reg2_addr[4:0]}  {top_tb.my_dut.reg2_data[31:0]}  {top_tb.my_dut.pc[31:0]}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { top_tb.my_dut.clk top_tb.my_dut.rst {top_tb.my_dut.rom_data_i[31:0]} {top_tb.my_dut.rom_addr_o[31:0]} top_tb.my_dut.rom_ce_o top_tb.my_dut.wb_wreg_i {top_tb.my_dut.wb_wd_i[4:0]} {top_tb.my_dut.wb_wdata_i[31:0]} top_tb.my_dut.reg1_read {top_tb.my_dut.reg1_addr[4:0]} {top_tb.my_dut.reg1_data[31:0]} top_tb.my_dut.reg2_read {top_tb.my_dut.reg2_addr[4:0]} {top_tb.my_dut.reg2_data[31:0]} {top_tb.my_dut.pc[31:0]} } -insertionbar
+gui_wv_zoom_timerange -id  Wave.1 0 431
+gui_wv_zoom_timerange -id  Wave.1 0 431
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 8687 12239
+gui_wv_zoom_timerange -id  Wave.1 9531 10143
+gui_wv_zoom_timerange -id  Wave.1 9782 9872
+gui_wv_zoom_timerange -id  Wave.1 9832 9838
+gui_wv_zoom_timerange -id  Wave.1 9835 9836
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.rom_addr_o[31:0]}   }
+gui_marker_move -id  Wave.1 C1 12703
+gui_marker_move -id  Wave.1 C1 24595
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.rst   }
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 2664
+gui_marker_move -id  Wave.1 C1 152
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 50000
+gui_marker_move -id  Wave.1 C1 4865
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_addr[4:0]}   }
+gui_marker_move -id  Wave.1 C1 19537
+gui_set_time_units 1ns
+gui_marker_move -id  Wave.1 C1 21.429
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.rom_data_i[31:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.rom_ce_o   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.clk   }
+gui_save_session -reload -default_file
+gui_marker_move -id  Wave.1 C1 1.776
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.reg1_read   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.rom_data_i[31:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.clk   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.rst   }
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 195
+gui_marker_move -id  Wave.1 C1 43.676
+gui_marker_move -id  Wave.1 C1 88.131
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.wb_wdata_i[31:0]}   }
+gui_marker_move -id  Wave.1 C1 230
+gui_marker_move -id  Wave.1 C1 195
+gui_marker_move -id  Wave.1 C1 210
+gui_marker_move -id  Wave.1 C1 99.05
+gui_marker_move -id  Wave.1 C1 92.811
+gui_marker_move -id  Wave.1 C1 50
+gui_marker_move -id  Wave.1 C1 38.996
+gui_marker_move -id  Wave.1 C1 27.297
+gui_marker_select -id  Wave.1 { C1 }
+gui_marker_move -id  Wave.1 C1 30
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.rom_data_i[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.rom_addr_o[31:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.rom_ce_o   }
+gui_marker_move -id  Wave.1 C1 299.49
+gui_save_session -reload -default_file
+gui_marker_move -id  Wave.1 C1 508.51
+gui_marker_move -id  Wave.1 C1 172.363
+gui_marker_move -id  Wave.1 C1 195
+gui_marker_move -id  Wave.1 C1 210
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.id_inst_i[31:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.id_pc_i[31:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.ex_aluop_i[7:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.ex_aluop_i[7:0]}  {top_tb.my_dut.ex_alusel_i[2:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {top_tb.my_dut.ex_aluop_i[7:0]} {top_tb.my_dut.ex_alusel_i[2:0]} } -insertionbar
+gui_marker_move -id  Wave.1 C1 825.158
+gui_list_expand -id  Hier.1   top_tb.my_dut
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut.pc_reg0 -current_item_type Scope  -selected  { top_tb.my_dut.pc_reg0   }
+gui_list_select -id Data.1 -selected  { top_tb.my_dut.pc_reg0.clk   }
+gui_list_select -id Data.1 -selected  { top_tb.my_dut.pc_reg0.clk  top_tb.my_dut.pc_reg0.rst  {top_tb.my_dut.pc_reg0.pc[31:0]}  top_tb.my_dut.pc_reg0.ce   }
+gui_list_add -id Wave.1 -from Data.1 { top_tb.my_dut.pc_reg0.clk top_tb.my_dut.pc_reg0.rst {top_tb.my_dut.pc_reg0.pc[31:0]} top_tb.my_dut.pc_reg0.ce } -insertionbar
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.pc_reg0.ce   }
+gui_wv_zoom_timerange -id  Wave.1 152.865 173.923
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.rom_data_i[31:0]}   }
+gui_marker_move -id  Wave.1 C1 230
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.pc_reg0.pc[31:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.pc_reg0.ce   }
+gui_save_session -reload -default_file
+gui_marker_move -id  Wave.1 C1 825.158
+gui_wv_zoom_timerange -id  Wave.1 0 1043.537
+gui_wv_zoom_timerange -id  Wave.1 127.907 385.282
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.rom_data_i[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_data[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.rom_addr_o[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.pc[31:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.pc_reg0.rst   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.pc_reg0.pc[31:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.pc_reg0.rst   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.pc_reg0.clk   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.pc_reg0.pc[31:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.pc_reg0.clk   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.pc_reg0.clk  top_tb.my_dut.pc_reg0.rst  {top_tb.my_dut.pc_reg0.pc[31:0]}  top_tb.my_dut.pc_reg0.ce   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.ex_alusel_i[2:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.pc[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.ex_alusel_i[2:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.ex_aluop_i[7:0]}   }
+gui_marker_move -id  Wave.1 C1 223.135
+gui_marker_move -id  Wave.1 C1 217.557
+gui_marker_move -id  Wave.1 C1 211.401
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.ex_alusel_i[2:0]}   }
+gui_copy_selected -id Wave.1
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut.mem_wb0 -current_item_type Scope  -selected  { top_tb.my_dut.mem_wb0   }
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut.mem0 -current_item_type Scope  -selected  { top_tb.my_dut.mem0   }
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut -current_item_type Scope  -selected  { top_tb.my_dut   }
+gui_src_highlight_item -id Source.1 -lfrom 30 -idxfrom 11 -fileIdFrom 0 -lto 30 -idxto 20 -fileIdTo 0 -selection {.rom_ce_o} -selectionId 0 -replace 0
+gui_list_action -id  Hier.1 top_tb.my_dut
+gui_list_action -id  Hier.1 top_tb.my_dut
+gui_marker_move -id  Wave.1 C1 293.346
+gui_marker_move -id  Wave.1 C1 259.106
+gui_marker_move -id  Wave.1 C1 257.567
+gui_marker_move -id  Wave.1 C1 250
+gui_marker_move -id  Wave.1 C1 250
+gui_marker_move -id  Wave.1 C1 230.06
+gui_marker_move -id  Wave.1 C1 210
+gui_marker_move -id  Wave.1 C1 230.637
+gui_wv_zoom_timerange -id  Wave.1 127.918 377.022
+gui_wv_zoom_timerange -id  Wave.1 127.918 385.293
+gui_marker_move -id  Wave.1 C1 195
+gui_marker_move -id  Wave.1 C1 211.017
+gui_marker_move -id  Wave.1 C1 210.055
+gui_marker_move -id  Wave.1 C1 231.407
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.rom_ce_o   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.rom_addr_o[31:0]}   }
+gui_marker_move -id  Wave.1 C1 209.478
+gui_marker_move -id  Wave.1 C1 211.401
+gui_marker_move -id  Wave.1 C1 208.131
+gui_marker_move -id  Wave.1 C1 209.286
+gui_marker_move -id  Wave.1 C1 215.441
+gui_marker_move -id  Wave.1 C1 210
+gui_marker_move -id  Wave.1 C1 230
+gui_marker_move -id  Wave.1 C1 215.826
+gui_marker_move -id  Wave.1 C1 232.176
+gui_marker_move -id  Wave.1 C1 258.722
+gui_marker_move -id  Wave.1 C1 251.027
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.pc[31:0]}   }
+gui_marker_move -id  Wave.1 C1 230
+gui_marker_move -id  Wave.1 C1 254.49
+gui_list_expand -id  Wave.1   {top_tb.my_dut.ex_aluop_i[7:0]}
+gui_list_collapse -id  Wave.1   {top_tb.my_dut.ex_aluop_i[7:0]}
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.ex_aluop_i[7:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.rom_ce_o   }
+gui_marker_move -id  Wave.1 C1 226.79
+gui_marker_move -id  Wave.1 C1 230.06
+gui_marker_move -id  Wave.1 C1 217.365
+gui_marker_move -id  Wave.1 C1 235.831
+gui_marker_move -id  Wave.1 C1 233.138
+gui_marker_move -id  Wave.1 C1 232.176
+gui_marker_move -id  Wave.1 C1 229.675
+gui_wv_zoom_timerange -id  Wave.1 127.918 377.022
+gui_marker_move -id  Wave.1 C1 232.946
+gui_marker_move -id  Wave.1 C1 230
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.ex_aluop_i[7:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.pc[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_data[31:0]}  {top_tb.my_dut.pc[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.pc[31:0]}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.ex_aluop_i[7:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.id_pc_i[31:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.id_pc_i[31:0]}  {top_tb.my_dut.id_inst_i[31:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {top_tb.my_dut.id_pc_i[31:0]} {top_tb.my_dut.id_inst_i[31:0]} } -insertionbar
+gui_marker_move -id  Wave.1 C1 367.404
+gui_marker_move -id  Wave.1 C1 250
+gui_marker_move -id  Wave.1 C1 235.639
+gui_marker_move -id  Wave.1 C1 230
+gui_marker_move -id  Wave.1 C1 250
+gui_list_select -id Wave.1 -selected  {  }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id_pc_i[31:0]}   }
+gui_list_select -id Wave.1 -selected  {  }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id_pc_i[31:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.pc[31:0]}   }
+gui_data_toggle_value_annotate -id  Data.1   {top_tb.my_dut.ex_reg1_i[31:0]}
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.ex_reg1_i[31:0]}   }
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut.ex_mem0 -current_item_type Scope  -selected  { top_tb.my_dut.ex_mem0   }
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut.id_ex0 -current_item_type Scope  -selected  { top_tb.my_dut.id_ex0   }
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut.id0 -current_item_type Scope  -selected  { top_tb.my_dut.id0   }
+gui_list_select -id Data.1 -selected  { top_tb.my_dut.id0.rst   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.id0.pc_i[31:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.id0.pc_i[31:0]}  {top_tb.my_dut.id0.inst_i[31:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.id0.pc_i[31:0]}  {top_tb.my_dut.id0.inst_i[31:0]}  {top_tb.my_dut.id0.aluop_o[7:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.id0.pc_i[31:0]}  {top_tb.my_dut.id0.inst_i[31:0]}  {top_tb.my_dut.id0.aluop_o[7:0]}  {top_tb.my_dut.id0.reg1_o[31:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.id0.pc_i[31:0]}  {top_tb.my_dut.id0.inst_i[31:0]}  {top_tb.my_dut.id0.aluop_o[7:0]}  {top_tb.my_dut.id0.reg1_o[31:0]}  {top_tb.my_dut.id0.alusel_o[2:0]}   }
+gui_list_select -id Data.1 -selected  { {top_tb.my_dut.id0.pc_i[31:0]}  {top_tb.my_dut.id0.inst_i[31:0]}  {top_tb.my_dut.id0.aluop_o[7:0]}  {top_tb.my_dut.id0.alusel_o[2:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {top_tb.my_dut.id0.pc_i[31:0]} {top_tb.my_dut.id0.inst_i[31:0]} {top_tb.my_dut.id0.aluop_o[7:0]} {top_tb.my_dut.id0.alusel_o[2:0]} } -insertionbar
+gui_list_select -id Wave.1 -selected  { {New Group}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id0.alusel_o[2:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id0.aluop_o[7:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id0.alusel_o[2:0]}   }
+gui_list_select -id Wave.1 -selected  {  }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id0.alusel_o[2:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id0.aluop_o[7:0]}  {top_tb.my_dut.id0.alusel_o[2:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id0.aluop_o[7:0]}  {top_tb.my_dut.id0.alusel_o[2:0]}  {top_tb.my_dut.id0.inst_i[31:0]}   }
+gui_marker_move -id  Wave.1 C1 223.135
+gui_marker_move -id  Wave.1 C1 230
+gui_marker_move -id  Wave.1 C1 210
+gui_marker_move -id  Wave.1 C1 230.637
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id0.aluop_o[7:0]}  {top_tb.my_dut.id0.alusel_o[2:0]}  {top_tb.my_dut.id0.inst_i[31:0]}  {top_tb.my_dut.id0.pc_i[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id_inst_i[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id_pc_i[31:0]}  {top_tb.my_dut.id_inst_i[31:0]}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id0.pc_i[31:0]}   }
+gui_save_session -reload -default_file
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id0.inst_i[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.id0.pc_i[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.ex_alusel_i[2:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_addr[4:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.reg2_read   }
+gui_wv_zoom_timerange -id  Wave.1 127.918 385.293
+gui_marker_move -id  Wave.1 C1 221.981
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.reg1_read   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.wb_wdata_i[31:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.reg2_read   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg1_data[31:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.reg1_read  {top_tb.my_dut.reg1_addr[4:0]}  {top_tb.my_dut.reg1_data[31:0]}   }
+gui_marker_move -id  Wave.1 C1 214.48
+gui_marker_move -id  Wave.1 C1 241.025
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_addr[4:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_addr[4:0]}  {top_tb.my_dut.reg2_data[31:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.reg2_read  {top_tb.my_dut.reg2_addr[4:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_data[31:0]}   }
+gui_list_expand -id  Wave.1   {top_tb.my_dut.rom_data_i[31:0]}
+gui_marker_move -id  Wave.1 C1 215.249
+gui_marker_move -id  Wave.1 C1 233.908
+gui_list_collapse -id  Wave.1   {top_tb.my_dut.rom_data_i[31:0]}
+gui_marker_move -id  Wave.1 C1 230
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.reg2_read   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg1_data[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg1_addr[4:0]}   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.reg1_read   }
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.reg2_read   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_addr[4:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_data[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_addr[4:0]}   }
+gui_list_select -id Wave.1 -selected  { {top_tb.my_dut.reg2_addr[4:0]}  {top_tb.my_dut.reg2_data[31:0]}   }
+gui_marker_move -id  Wave.1 C1 230
+gui_marker_move -id  Wave.1 C1 305.08
+gui_marker_move -id  Wave.1 C1 296.617
+gui_marker_move -id  Wave.1 C1 290
+gui_wv_scroll_hslidermove -id  Wave.1 382
+gui_list_select -id Wave.1 -selected  { top_tb.my_dut.rom_ce_o   }
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 201.547 266.465
+gui_marker_move -id  Wave.1 C1 210
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 192.619
+gui_marker_move -id  Wave.1 C1 210
